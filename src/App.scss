@@ -10,12 +10,34 @@ html {
       sans-serif;
   }
 }
+.link{
+  color:grey;
+  text-decoration: none;
+}
+
 #myVideo {
   position: fixed;
   right: 0;
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+}
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  a {
+    margin: 0 28px;
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Poppins";
+  }
+}
+.selected{
+  color: white;
 }
 
 .hero {
@@ -35,23 +57,24 @@ html {
         width: 50%;
         .hero-content-inner {
           width: 400px;
-          color: white;
+          color: gray;
           margin: 0 auto;
           h1 {
             font-weight: 500;
-            font-size: 32px;
+            font-size: 32px;            
             margin-bottom: 24px;
             .hero-content-line {
               margin: 0;
               height: 44px;
               overflow: hidden;
               .hero-content-line-inner {
+
               }
             }
           }
           p {
-            font-size: 14px;
-            line-height: 24px;
+            font-size: 20px;
+            line-height: 30px;
             font-weight: 300;
             padding-right: 48px;
             margin-bottom: 56px;
